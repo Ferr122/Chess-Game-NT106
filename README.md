@@ -30,15 +30,15 @@
 
 ---
 
-## 👥 3. Phân công công việc (Nhóm 10)
+## 📋 3. Chi tiết các hạng mục công việc
 
-| STT | Hạng mục / Module | Mô tả chi tiết công việc | Người phụ trách |
-| :---: | :--- | :--- | :---: |
-| **01** | **Giao diện & Quản lý Tài khoản (Client)** | Thiết kế giao diện WinForms cho các chức năng đăng nhập, đăng ký, menu chính và hồ sơ người dùng; xây dựng chức năng quản lý tài khoản phía Client. | Thành viên 1 |
-| **02** | **Kết nối TCP & Giao thức Truyền thông** | Xây dựng chức năng kết nối TCP, thiết kế giao thức giao tiếp giữa Client và Server, xử lý gửi nhận dữ liệu và đồng bộ trạng thái giữa các Client. | Thành viên 2 |
-| **03** | **Cơ sở dữ liệu (Database & Storage)** | Thiết kế cơ sở dữ liệu SQL Server, xây dựng các bảng, khóa chính, khóa ngoại và chức năng truy vấn, lưu trữ dữ liệu tài khoản, trận đấu, lịch sử nước đi và tin nhắn. | Thành viên 3 |
-| **04** | **Game Logic & Quản lý Trận đấu (Module 1)** | Xây dựng logic cờ vua, xử lý nước đi hợp lệ, kiểm tra chiếu, chiếu hết, hòa cờ; xây dựng chức năng ghép trận và quản lý trạng thái trận đấu phía Server. | Thành viên 4 |
-| **05** | **Game Logic & Quản lý Trận đấu (Module 2)** | Phối hợp hoàn thiện logic cờ vua, kiểm soát tính hợp lệ của nước đi, trạng thái trận đấu, chức năng ghép trận và đồng bộ thời gian thực giữa 2 client. | Thành viên 5 |
+| STT | Hạng mục / Module | Chi tiết công việc thực hiện |
+| :---: | :--- | :--- |
+| **01** | **Giao diện & Chức năng Client** | Thiết kế giao diện WinForms, xây dựng các form đăng nhập, đăng ký, phòng chờ và hồ sơ người dùng; kết nối giao diện với các chức năng từ Server. |
+| **02** | **Server-side & Xử lý Kết nối TCP** | Xây dựng Server-side, xử lý kết nối TCP từ nhiều Client, tiếp nhận và phân phối yêu cầu, xử lý giao tiếp giữa Client và Server; phối hợp xây dựng chức năng đăng nhập và ghép trận. |
+| **03** | **Cơ sở dữ liệu & Tích hợp Server** | Thiết kế cơ sở dữ liệu SQL Server, xây dựng các bảng, khóa chính, khóa ngoại và truy vấn dữ liệu; tích hợp Database với Server để lưu trữ tài khoản, trận đấu và lịch sử nước đi. |
+| **04** | **Game Logic Cờ vua & Đồng bộ Bàn cờ** | Xây dựng logic cờ vua, xử lý nước đi hợp lệ, kiểm tra chiếu, chiếu hết và hòa cờ; phối hợp với Server để đồng bộ trạng thái trận đấu giữa hai người chơi. |
+| **05** | **Tính năng Mở rộng, Kiểm thử & Báo cáo** | Xây dựng chức năng chat, lịch sử trận đấu và bảng xếp hạng; kiểm thử tích hợp toàn hệ thống, ghi nhận lỗi, phối hợp sửa lỗi và hoàn thiện báo cáo đồ án. |
 
 ---
 
